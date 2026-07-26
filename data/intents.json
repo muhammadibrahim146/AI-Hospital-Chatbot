@@ -1,0 +1,1007 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Assalam o Alaikum",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Can you help me?",
+        "Hello Hospital",
+        "Hi there",
+        "Greetings"
+      ],
+      "responses": [
+        "Welcome to CityCare Hospital. How may I assist you today?",
+        "Hello! I can help you with appointments, doctors, departments and hospital services.",
+        "Assalam o Alaikum! Welcome to CityCare Hospital. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you",
+        "Take care",
+        "Exit",
+        "Quit",
+        "See you later",
+        "Have a nice day",
+        "Catch you later",
+        "I am leaving"
+      ],
+      "responses": [
+        "Thank you for visiting CityCare Hospital. Stay healthy!",
+        "Goodbye! We wish you good health.",
+        "Take care and have a wonderful day."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Thanks a lot",
+        "Thank you so much",
+        "I appreciate it",
+        "Much appreciated",
+        "Thanks buddy",
+        "You helped me",
+        "Great thanks",
+        "Thanks doctor"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help.",
+        "It was my pleasure. Stay healthy!"
+      ]
+    },
+    {
+      "tag": "hospital_information",
+      "patterns": [
+        "Tell me about the hospital",
+        "Hospital information",
+        "About hospital",
+        "Who are you",
+        "Hospital details",
+        "What services do you provide",
+        "Introduce your hospital",
+        "About CityCare Hospital",
+        "Hospital overview",
+        "Hospital introduction"
+      ],
+      "responses": [
+        "CityCare Hospital is a modern multi-specialty hospital providing OPD consultations, emergency care, diagnostics, surgery, pharmacy, laboratory and inpatient services.",
+        "CityCare Hospital offers quality healthcare through experienced doctors, advanced medical facilities and patient-centered care."
+      ]
+    },
+    {
+      "tag": "departments",
+      "patterns": [
+        "Hospital departments",
+        "Departments",
+        "Available departments",
+        "Medical specialties",
+        "Which departments do you have",
+        "List all departments",
+        "Show hospital departments",
+        "Specialist departments",
+        "Hospital specialties",
+        "Medical units"
+      ],
+      "responses": [
+        "We have General Medicine, Pediatrics, Cardiology, Neurology, Orthopedics, ENT, Gynecology, Dermatology, Dentistry, Ophthalmology, Urology, Pulmonology, Gastroenterology, Laboratory, Pharmacy and Emergency departments."
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "Hospital phone number",
+        "Hospital contact",
+        "Reception number",
+        "Email address",
+        "Hospital address",
+        "Where are you located",
+        "Location",
+        "Contact details",
+        "Phone",
+        "How can I contact hospital"
+      ],
+      "responses": [
+        "CityCare Hospital\nLocation: Gulshan-e-Iqbal, Karachi\nReception: 021-38123456\nEmergency: 021-38121111\nEmail: info@citycarehospital.pk"
+      ]
+    },
+    {
+      "tag": "appointment",
+      "patterns": [
+        "Book appointment",
+        "Appointment",
+        "Doctor appointment",
+        "Schedule appointment",
+        "Reserve appointment",
+        "Meet doctor",
+        "Need appointment",
+        "Appointment booking",
+        "Consult doctor",
+        "How to book appointment"
+      ],
+      "responses": [
+        "Appointments can be booked through our reception between 8:00 AM and 9:00 PM.",
+        "Please provide the doctor's name and preferred date to book your appointment.",
+        "Appointments are recommended before visiting specialist doctors."
+      ]
+    },
+    {
+      "tag": "cancel_appointment",
+      "patterns": [
+        "Cancel appointment",
+        "Reschedule appointment",
+        "Change appointment",
+        "Modify booking",
+        "Cancel booking",
+        "Appointment cancellation",
+        "Shift appointment",
+        "Appointment change"
+      ],
+      "responses": [
+        "Appointments can be cancelled or rescheduled by contacting reception at least 2 hours before your appointment time.",
+        "Please call our Appointment Desk to modify your booking."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "Emergency",
+        "Emergency room",
+        "Emergency ward",
+        "Need emergency doctor",
+        "Critical patient",
+        "Emergency service",
+        "Immediate treatment",
+        "Accident case",
+        "Emergency help",
+        "Medical emergency"
+      ],
+      "responses": [
+        "Our Emergency Department operates 24 hours a day, 7 days a week.",
+        "If this is a life-threatening emergency, please visit the Emergency Department immediately or call 021-38121111.",
+        "Emergency services are available without prior appointment."
+      ]
+    },
+    {
+      "tag": "general_physician",
+      "patterns": [
+        "General physician",
+        "General doctor",
+        "Doctor for fever",
+        "Doctor for cough",
+        "I have fever",
+        "I have flu",
+        "Body pain doctor",
+        "Need general checkup",
+        "Medicine specialist",
+        "General medicine doctor",
+        "I am feeling sick",
+        "Who is the general physician"
+      ],
+      "responses": [
+        "Dr. Ahmed Raza (General Physician) is available Monday to Saturday from 9:00 AM to 2:00 PM. Consultation Fee: PKR 2,000. Room: OPD-101.",
+        "For fever, cough, flu or general health issues, please consult Dr. Ahmed Raza in OPD-101."
+      ]
+    },
+    {
+      "tag": "pediatrician",
+      "patterns": [
+        "Child specialist",
+        "Kids doctor",
+        "Baby doctor",
+        "Pediatrician",
+        "Doctor for child",
+        "Children specialist",
+        "My baby is sick",
+        "Child has fever",
+        "Child has cough",
+        "Need pediatrician",
+        "Kids hospital doctor",
+        "Who is the child specialist"
+      ],
+      "responses": [
+        "Dr. Sarah Khan (Pediatrician) is available Monday to Friday from 4:00 PM to 8:00 PM. Consultation Fee: PKR 2,500. Room: OPD-205.",
+        "For children's health problems, please consult Dr. Sarah Khan."
+      ]
+    },
+    {
+      "tag": "cardiologist",
+      "patterns": [
+        "Heart doctor",
+        "Cardiologist",
+        "Chest pain",
+        "Heart specialist",
+        "Heart checkup",
+        "Heart problem",
+        "Need cardiologist",
+        "Chest discomfort",
+        "High blood pressure doctor",
+        "Heart disease doctor",
+        "Doctor for heart",
+        "Cardiac specialist"
+      ],
+      "responses": [
+        "Dr. Bilal Siddiqui (Cardiologist) is available Tuesday, Thursday and Saturday from 6:00 PM to 9:00 PM. Consultation Fee: PKR 3,500. Room: Cardiology OPD.",
+        "If you have severe chest pain, please visit the Emergency Department immediately."
+      ]
+    },
+    {
+      "tag": "neurologist",
+      "patterns": [
+        "Neurologist",
+        "Brain doctor",
+        "Headache specialist",
+        "Migraine doctor",
+        "Nerve specialist",
+        "Memory problem",
+        "Brain specialist",
+        "Doctor for seizures",
+        "Need neurologist",
+        "Nerve problem",
+        "Stroke doctor",
+        "Who is neurologist"
+      ],
+      "responses": [
+        "Dr. Zain Abbas (Neurologist) is available Wednesday and Saturday from 5:00 PM to 8:00 PM. Consultation Fee: PKR 4,500. Room: Neuro Clinic."
+      ]
+    },
+    {
+      "tag": "orthopedic",
+      "patterns": [
+        "Bone doctor",
+        "Orthopedic",
+        "Joint pain",
+        "Back pain",
+        "Knee pain",
+        "Broken bone",
+        "Fracture doctor",
+        "Bone specialist",
+        "Orthopedic surgeon",
+        "Need orthopedic",
+        "Shoulder pain",
+        "Hip pain"
+      ],
+      "responses": [
+        "Dr. Ali Hassan (Orthopedic Surgeon) is available Monday to Saturday from 10:00 AM to 1:00 PM. Consultation Fee: PKR 3,000. Room: OPD-310."
+      ]
+    },
+    {
+      "tag": "ent",
+      "patterns": [
+        "ENT doctor",
+        "Ear specialist",
+        "Nose specialist",
+        "Throat specialist",
+        "Ear pain",
+        "Sore throat",
+        "Hearing problem",
+        "Nose bleeding",
+        "Need ENT",
+        "ENT specialist",
+        "Ear infection",
+        "Doctor for throat"
+      ],
+      "responses": [
+        "Dr. Muhammad Usman (ENT Specialist) is available Tuesday to Sunday from 3:00 PM to 7:00 PM. Consultation Fee: PKR 2,500. Room: ENT-204."
+      ]
+    },
+    {
+      "tag": "ophthalmologist",
+      "patterns": [
+        "Eye doctor",
+        "Eye specialist",
+        "Vision problem",
+        "Blurred vision",
+        "Eye pain",
+        "Eye checkup",
+        "Need eye doctor",
+        "Ophthalmologist",
+        "Eye infection",
+        "Doctor for eyes",
+        "Eye surgery",
+        "Eye clinic"
+      ],
+      "responses": [
+        "Dr. Hamza Tariq (Ophthalmologist) is available Monday to Friday from 9:00 AM to 1:00 PM. Consultation Fee: PKR 2,700. Room: Eye Clinic."
+      ]
+    },
+    {
+      "tag": "dentist",
+      "patterns": [
+        "Dentist",
+        "Tooth doctor",
+        "Dental checkup",
+        "Tooth pain",
+        "Cavity",
+        "Dental specialist",
+        "Need dentist",
+        "Teeth cleaning",
+        "Dental clinic",
+        "Root canal",
+        "Wisdom tooth",
+        "Doctor for teeth"
+      ],
+      "responses": [
+        "Dr. Fatima Iqbal (Dentist) is available Monday to Saturday from 5:00 PM to 9:00 PM. Consultation Fee: PKR 2,200. Room: Dental Clinic."
+      ]
+    },
+    {
+      "tag": "gynecologist",
+      "patterns": [
+        "Gynecologist",
+        "Women doctor",
+        "Pregnancy doctor",
+        "Female specialist",
+        "Doctor for pregnancy",
+        "Need gynecologist",
+        "Women's health",
+        "Gyne doctor",
+        "OBGYN",
+        "Pregnancy checkup",
+        "Maternity doctor",
+        "Female health doctor"
+      ],
+      "responses": [
+        "Dr. Ayesha Noor (Gynecologist) is available Monday to Friday from 11:00 AM to 3:00 PM. Consultation Fee: PKR 2,800. Room: GYN-201.",
+        "For pregnancy, women's health and maternity care, please consult Dr. Ayesha Noor."
+      ]
+    },
+    {
+      "tag": "dermatologist",
+      "patterns": [
+        "Skin specialist",
+        "Dermatologist",
+        "Skin doctor",
+        "Acne treatment",
+        "Skin allergy",
+        "Skin infection",
+        "Hair fall",
+        "Need dermatologist",
+        "Rashes",
+        "Skin problem",
+        "Face pimples",
+        "Itching"
+      ],
+      "responses": [
+        "Dr. Hira Malik (Dermatologist) is available Monday, Wednesday and Friday from 5:00 PM to 8:00 PM. Consultation Fee: PKR 3,000. Room: Skin Clinic."
+      ]
+    },
+    {
+      "tag": "pulmonologist",
+      "patterns": [
+        "Lung specialist",
+        "Pulmonologist",
+        "Breathing problem",
+        "Asthma doctor",
+        "Shortness of breath",
+        "Chest infection",
+        "Need lung doctor",
+        "Respiratory doctor",
+        "Breathing issue",
+        "Cough specialist",
+        "Lung doctor",
+        "Pulmonary specialist"
+      ],
+      "responses": [
+        "Dr. Imran Qureshi (Pulmonologist) is available Tuesday, Thursday and Saturday from 4:00 PM to 7:00 PM. Consultation Fee: PKR 3,200. Room: Pulmonary Clinic."
+      ]
+    },
+    {
+      "tag": "gastroenterologist",
+      "patterns": [
+        "Stomach doctor",
+        "Gastroenterologist",
+        "Acidity",
+        "Ulcer",
+        "Digestive problem",
+        "Constipation",
+        "Abdominal pain",
+        "Liver doctor",
+        "Need stomach specialist",
+        "Gas problem",
+        "Food poisoning",
+        "Digestive specialist"
+      ],
+      "responses": [
+        "Dr. Faisal Ahmed (Gastroenterologist) is available Monday, Wednesday and Saturday from 3:00 PM to 6:00 PM. Consultation Fee: PKR 3,300. Room: Gastro Clinic."
+      ]
+    },
+    {
+      "tag": "urologist",
+      "patterns": [
+        "Urologist",
+        "Kidney doctor",
+        "Urine problem",
+        "Urinary infection",
+        "Bladder doctor",
+        "Kidney specialist",
+        "Pain while urinating",
+        "Need urologist",
+        "Stone specialist",
+        "Urinary doctor",
+        "Kidney stone",
+        "Urine infection"
+      ],
+      "responses": [
+        "Dr. Kamran Ali (Urologist) is available Monday to Friday from 6:00 PM to 9:00 PM. Consultation Fee: PKR 3,400. Room: Urology OPD."
+      ]
+    },
+    {
+      "tag": "psychiatrist",
+      "patterns": [
+        "Psychiatrist",
+        "Mental health doctor",
+        "Depression",
+        "Anxiety",
+        "Stress doctor",
+        "Mental health",
+        "Need psychiatrist",
+        "Panic attacks",
+        "Emotional problems",
+        "Sleeping disorder",
+        "Counselling",
+        "Psychological doctor"
+      ],
+      "responses": [
+        "Dr. Sana Iqbal (Psychiatrist) is available Tuesday to Saturday from 5:00 PM to 8:00 PM. Consultation Fee: PKR 4,000. Room: Psychiatry Clinic."
+      ]
+    },
+    {
+      "tag": "endocrinologist",
+      "patterns": [
+        "Endocrinologist",
+        "Diabetes doctor",
+        "Hormone specialist",
+        "Thyroid doctor",
+        "Sugar specialist",
+        "Need endocrinologist",
+        "Hormonal problem",
+        "Thyroid problem",
+        "Diabetes specialist",
+        "Blood sugar doctor",
+        "Hormone doctor",
+        "Endocrine specialist"
+      ],
+      "responses": [
+        "Dr. Maria Siddiqui (Endocrinologist) is available Monday, Thursday and Saturday from 2:00 PM to 6:00 PM. Consultation Fee: PKR 3,600. Room: Endocrine Clinic."
+      ]
+    },
+    {
+      "tag": "pharmacy",
+      "patterns": [
+        "Hospital pharmacy",
+        "Medicine",
+        "Buy medicine",
+        "Medical store",
+        "Pharmacy timing",
+        "Is pharmacy open",
+        "Medicine shop",
+        "Get medicine",
+        "Hospital medicines",
+        "Pharmacy services"
+      ],
+      "responses": [
+        "Our pharmacy is open 24/7 and provides prescribed medicines, OTC medicines and emergency medications."
+      ]
+    },
+    {
+      "tag": "laboratory",
+      "patterns": [
+        "Laboratory",
+        "Lab tests",
+        "Blood test",
+        "Urine test",
+        "CBC test",
+        "Medical lab",
+        "Pathology lab",
+        "Need blood test",
+        "Diagnostic lab",
+        "Lab timing"
+      ],
+      "responses": [
+        "The Laboratory is open 24/7. We provide CBC, Blood Sugar, Liver Function Test (LFT), Kidney Function Test (KFT), Lipid Profile, Urine Analysis and many other diagnostic tests."
+      ]
+    },
+    {
+      "tag": "radiology",
+      "patterns": [
+        "X-ray",
+        "MRI",
+        "CT Scan",
+        "Ultrasound",
+        "Radiology",
+        "Imaging department",
+        "Need MRI",
+        "Need X-ray",
+        "Diagnostic imaging",
+        "Radiology services"
+      ],
+      "responses": [
+        "Our Radiology Department provides Digital X-Ray, Ultrasound, CT Scan and MRI services from 8:00 AM to 10:00 PM. Emergency imaging is available 24/7."
+      ]
+    },
+    {
+      "tag": "ambulance",
+      "patterns": [
+        "Need ambulance",
+        "Call ambulance",
+        "Emergency ambulance",
+        "Ambulance service",
+        "Book ambulance",
+        "Hospital ambulance",
+        "Emergency vehicle",
+        "Patient transport",
+        "Send ambulance",
+        "24 hour ambulance"
+      ],
+      "responses": [
+        "CityCare Hospital provides 24/7 ambulance services. Please call 021-38121111 immediately for emergency assistance.",
+        "Our ambulance team is available round the clock for emergency patient transportation."
+      ]
+    },
+    {
+      "tag": "icu",
+      "patterns": [
+        "ICU",
+        "Intensive Care Unit",
+        "Critical care",
+        "Need ICU",
+        "ICU facility",
+        "Critical patient",
+        "ICU admission",
+        "Emergency ICU",
+        "Intensive care",
+        "ICU room"
+      ],
+      "responses": [
+        "Our ICU is available 24/7 with experienced intensivists, trained nursing staff and advanced life support equipment."
+      ]
+    },
+    {
+      "tag": "blood_bank",
+      "patterns": [
+        "Blood bank",
+        "Need blood",
+        "Blood donation",
+        "Donate blood",
+        "Blood availability",
+        "Blood group",
+        "Emergency blood",
+        "Blood service",
+        "Blood center",
+        "Blood request"
+      ],
+      "responses": [
+        "Our Blood Bank operates 24/7 and provides blood collection, storage and emergency blood transfusion services."
+      ]
+    },
+    {
+      "tag": "vaccination",
+      "patterns": [
+        "Vaccination",
+        "Vaccines",
+        "COVID vaccine",
+        "Flu vaccine",
+        "Child vaccination",
+        "Immunization",
+        "Need vaccine",
+        "Vaccination center",
+        "Adult vaccination",
+        "Travel vaccine"
+      ],
+      "responses": [
+        "Vaccination services are available Monday to Saturday from 9:00 AM to 5:00 PM. Please bring your identification and previous vaccination record if available."
+      ]
+    },
+    {
+      "tag": "billing",
+      "patterns": [
+        "Billing",
+        "Hospital bill",
+        "Payment",
+        "Consultation charges",
+        "Pay bill",
+        "Bill information",
+        "Medical bill",
+        "Hospital charges",
+        "Payment methods",
+        "Invoice"
+      ],
+      "responses": [
+        "The Billing Department is open 24/7. We accept cash, debit cards, credit cards and online bank transfers."
+      ]
+    },
+    {
+      "tag": "insurance",
+      "patterns": [
+        "Insurance",
+        "Health insurance",
+        "Insurance claim",
+        "Insurance panel",
+        "Medical insurance",
+        "Cashless treatment",
+        "Insurance support",
+        "Covered insurance",
+        "Insurance companies",
+        "Insurance desk"
+      ],
+      "responses": [
+        "Our Insurance Desk assists patients with cashless treatment and insurance claim processing. Please bring your insurance card and CNIC."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "Hospital admission",
+        "Patient admission",
+        "Admit patient",
+        "Admission process",
+        "Need admission",
+        "Hospitalize patient",
+        "Admission procedure",
+        "IPD admission",
+        "Ward admission",
+        "Admission help"
+      ],
+      "responses": [
+        "For admission, please visit the Admission Desk with the doctor's recommendation, CNIC and required medical documents."
+      ]
+    },
+    {
+      "tag": "discharge",
+      "patterns": [
+        "Hospital discharge",
+        "Patient discharge",
+        "Discharge process",
+        "Leave hospital",
+        "Discharge summary",
+        "Need discharge",
+        "Hospital release",
+        "Discharge documents",
+        "Discharge timing",
+        "Discharge procedure"
+      ],
+      "responses": [
+        "Patients can be discharged after doctor approval and completion of billing. A discharge summary and prescription will be provided."
+      ]
+    },
+    {
+      "tag": "medical_records",
+      "patterns": [
+        "Medical record",
+        "Patient record",
+        "Health record",
+        "Previous reports",
+        "Medical history",
+        "Test reports",
+        "Patient file",
+        "Lab reports",
+        "Hospital record",
+        "Record department"
+      ],
+      "responses": [
+        "Medical Records Department is open Monday to Saturday from 9:00 AM to 5:00 PM. Please bring your patient ID or CNIC."
+      ]
+    },
+    {
+      "tag": "visiting_hours",
+      "patterns": [
+        "Visiting hours",
+        "Patient visiting time",
+        "Hospital visiting hours",
+        "Meet patient",
+        "Visit patient",
+        "Visitor timing",
+        "When can I visit",
+        "Family visiting time",
+        "Visiting schedule",
+        "Hospital timing"
+      ],
+      "responses": [
+        "General Ward Visiting Hours: 5:00 PM to 7:00 PM.\nICU Visiting Hours: 6:00 PM to 6:30 PM. Only one attendant is allowed."
+      ]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Parking",
+        "Car parking",
+        "Bike parking",
+        "Hospital parking",
+        "Parking facility",
+        "Parking area",
+        "Parking charges",
+        "Vehicle parking",
+        "Parking available",
+        "Where to park"
+      ],
+      "responses": [
+        "Free parking is available for patients and visitors inside the hospital premises with 24-hour security."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": [
+        "Cafeteria",
+        "Hospital cafeteria",
+        "Food court",
+        "Restaurant",
+        "Tea shop",
+        "Coffee",
+        "Can I eat here",
+        "Food available",
+        "Hospital food",
+        "Cafe timing"
+      ],
+      "responses": [
+        "The hospital cafeteria is open daily from 7:00 AM to 11:00 PM and serves tea, coffee, snacks and meals."
+      ]
+    },
+    {
+      "tag": "fever",
+      "patterns": [
+        "I have fever",
+        "High temperature",
+        "Body is hot",
+        "Feeling feverish",
+        "Fever for two days",
+        "Temperature is high",
+        "I have a temperature",
+        "Doctor for fever",
+        "Fever treatment",
+        "What should I do for fever"
+      ],
+      "responses": [
+        "A fever may indicate an infection. Stay hydrated, rest well and monitor your temperature. If the fever is above 102°F, lasts more than 48 hours or is accompanied by severe symptoms, please consult Dr. Ahmed Raza or visit the Emergency Department."
+      ]
+    },
+    {
+      "tag": "cough",
+      "patterns": [
+        "I have cough",
+        "Dry cough",
+        "Wet cough",
+        "Persistent cough",
+        "Cough for a week",
+        "Bad cough",
+        "Need cough treatment",
+        "Coughing continuously",
+        "Doctor for cough",
+        "Severe cough"
+      ],
+      "responses": [
+        "Drink warm fluids and get adequate rest. If the cough lasts more than two weeks, produces blood or is associated with breathing difficulty, please consult Dr. Ahmed Raza or Dr. Imran Qureshi."
+      ]
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "Headache",
+        "Severe headache",
+        "Migraine",
+        "Pain in my head",
+        "Head pain",
+        "Head is hurting",
+        "Need headache doctor",
+        "Constant headache",
+        "Migraine attack",
+        "Bad headache"
+      ],
+      "responses": [
+        "Headaches can have many causes including stress, dehydration and migraine. If the pain is severe, sudden or associated with weakness or vision changes, visit the Emergency Department immediately."
+      ]
+    },
+    {
+      "tag": "stomach_pain",
+      "patterns": [
+        "Stomach pain",
+        "Abdominal pain",
+        "Pain in stomach",
+        "My stomach hurts",
+        "Need stomach doctor",
+        "Severe stomach pain",
+        "Stomach cramps",
+        "Abdominal discomfort",
+        "Digestive pain",
+        "Pain after eating"
+      ],
+      "responses": [
+        "For persistent stomach pain, vomiting, bleeding or severe abdominal pain, consult Dr. Faisal Ahmed (Gastroenterologist) or visit Emergency if symptoms are severe."
+      ]
+    },
+    {
+      "tag": "diet",
+      "patterns": [
+        "Healthy diet",
+        "Diet plan",
+        "Food recommendation",
+        "Healthy eating",
+        "What should I eat",
+        "Balanced diet",
+        "Diet advice",
+        "Nutrition",
+        "Healthy food",
+        "Meal plan"
+      ],
+      "responses": [
+        "Maintain a balanced diet including fruits, vegetables, whole grains, lean protein and plenty of water. Limit sugary drinks and processed foods."
+      ]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": [
+        "First aid",
+        "Emergency first aid",
+        "Minor injury",
+        "Cut on hand",
+        "Burn treatment",
+        "Bleeding wound",
+        "First aid tips",
+        "Immediate treatment",
+        "Small burn",
+        "Accident first aid"
+      ],
+      "responses": [
+        "For minor cuts, wash the wound with clean water and apply a sterile bandage. For severe bleeding, burns or unconsciousness, seek emergency medical care immediately."
+      ]
+    },
+    {
+      "tag": "doctor_schedule",
+      "patterns": [
+        "Doctor schedule",
+        "Doctor timing",
+        "Today's doctor",
+        "Available doctors today",
+        "Doctor availability",
+        "When is doctor available",
+        "Doctor duty",
+        "Schedule of doctors",
+        "Available specialist",
+        "Which doctor is available"
+      ],
+      "responses": [
+        "Please tell me the doctor's name or specialization so I can provide the available consultation schedule."
+      ]
+    },
+    {
+      "tag": "doctor_search",
+      "patterns": [
+        "Find doctor",
+        "Search doctor",
+        "Need specialist",
+        "Recommend doctor",
+        "Which doctor should I see",
+        "Doctor recommendation",
+        "Find specialist",
+        "Doctor by specialty",
+        "Suggest doctor",
+        "Best doctor"
+      ],
+      "responses": [
+        "Please describe your symptoms or mention the medical specialty you need, and I'll recommend the appropriate doctor."
+      ]
+    },
+    {
+      "tag": "fee_inquiry",
+      "patterns": [
+        "Doctor fee",
+        "Consultation fee",
+        "Appointment fee",
+        "Hospital charges",
+        "How much is the fee",
+        "Specialist charges",
+        "Visit fee",
+        "Doctor charges",
+        "Fee details",
+        "Consultation cost"
+      ],
+      "responses": [
+        "General Physician: PKR 2,000\nPediatrician: PKR 2,500\nCardiologist: PKR 3,500\nNeurologist: PKR 4,500\nOrthopedic: PKR 3,000\nDentist: PKR 2,200\nOther specialist fees range from PKR 2,500 to PKR 4,500."
+      ]
+    },
+    {
+      "tag": "waiting_time",
+      "patterns": [
+        "Waiting time",
+        "How long do I wait",
+        "Doctor waiting",
+        "Queue time",
+        "Appointment waiting",
+        "Estimated waiting time",
+        "How much waiting",
+        "Patient queue",
+        "Waiting period",
+        "Queue"
+      ],
+      "responses": [
+        "The average waiting time is 15–30 minutes for appointments and 30–60 minutes for walk-in patients depending on the doctor's schedule."
+      ]
+    },
+    {
+      "tag": "hospital_navigation",
+      "patterns": [
+        "Where is laboratory",
+        "Where is pharmacy",
+        "Hospital map",
+        "How can I reach OPD",
+        "Directions",
+        "Find ICU",
+        "Find emergency",
+        "Hospital navigation",
+        "Location of lab",
+        "Location of pharmacy"
+      ],
+      "responses": [
+        "Ground Floor: Emergency, Pharmacy, Laboratory\nFirst Floor: General OPD\nSecond Floor: Cardiology, Neurology and Orthopedics\nThird Floor: ICU and Inpatient Wards."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "Submit complaint",
+        "Hospital complaint",
+        "Bad service",
+        "Give feedback",
+        "Complaint department",
+        "Patient complaint",
+        "Feedback",
+        "Suggestion",
+        "Need help",
+        "Customer support"
+      ],
+      "responses": [
+        "We value your feedback. Please contact the Patient Relations Desk or email support@citycarehospital.pk. We will review your complaint as soon as possible."
+      ]
+    },
+    {
+      "tag": "health_tips",
+      "patterns": [
+        "Health tips",
+        "Stay healthy",
+        "Healthy lifestyle",
+        "Fitness tips",
+        "Health advice",
+        "Daily health tips",
+        "Good habits",
+        "Wellness",
+        "Prevent diseases",
+        "Healthy routine"
+      ],
+      "responses": [
+        "Exercise regularly, eat a balanced diet, drink plenty of water, sleep 7–8 hours daily, avoid smoking, manage stress and schedule regular medical checkups."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdf",
+        "xyz",
+        "I don't know",
+        "Random question",
+        "Tell me anything",
+        "What",
+        "Hmm",
+        "???",
+        "No idea",
+        "Random"
+      ],
+      "responses": [
+        "I'm sorry, I couldn't understand your question. Please ask about doctors, appointments, departments or hospital services.",
+        "Could you please rephrase your question?",
+        "I can help you with appointments, doctors, emergency services and hospital information."
+      ]
+    }
+  ]
+}
